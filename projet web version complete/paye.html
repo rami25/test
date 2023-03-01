@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paye</title>
+    <link rel="shortcut icon" href="images/logo1.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div id="payehead">
+        <nav>
+            <ul>
+                <a href="main.html">
+                    <li style="width: 160px;">page d'acceuil</li>
+                </a>
+                <a href="disponibles.html">
+                    <li style="width: 160px;">Disponibles</li>
+                </a>
+               
+            </ul>
+        </nav>
+        <div
+            style="text-align: center;color: yellow;font-size: 30px;font-style: italic;text-decoration: underline;padding-bottom: 20px;">
+            Payer</div>
+    </div>
+
+    <div id="paye">
+        <form id="payef" action="" onsubmit="confirm()">
+            <Strong>Adresse :</Strong>
+            <input type="text" style="margin-left: 28px;"><br>
+            <strong>Code postal :</strong>
+            <input type="text"><br>
+            <h4>Type de carte :</h4>
+            <input type="radio" name="cart" id="visa">
+            <label for="visa">Visa</label><br>
+            <input type="radio" name="cart" id="mc">
+            <label for="mc">MasterCard</label><br>
+            <input type="radio" name="cart" id="am">
+            <label for="am">AmEx</label><br>
+            <strong style="margin-left: 15px;">Num de carte :</strong>
+            <input type="number" placeholder="xxxx-xxxx-xxxx-xxxx" required><br>
+            <strong>Nom de porteur :</strong>
+            <input type="text" required><br>
+            <strong>Code de securité :</strong>
+            <input type="text" placeholder="xxxx-xxxx" required><br> 
+            <label for="tranche">Selectionner la tranche :</label>
+            <select name="" id="tranche">
+                <option value="">Tranche 1 : 60%</option>
+                <option value="">Tranche 2 : 20%</option>
+                <option value="">Tranche 2 : 20%</option>
+                <option value="">Total</option>
+            </select><br>
+
+            <a href="confirm.html" target="_blank"><button id="pbtn" type="submit">Payer</button></a>
+        </form>
+
+    </div>
+</body>
+</html>

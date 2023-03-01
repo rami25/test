@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="fr" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>acceuil</title>
+    <link rel="shortcut icon" href="images/logo1.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div id="tete">
+            <abbr title="ouvrir page dans une nouvelle fenetre"><a href="main.html" target="_blank"><img id="logo1"
+                        src="images/logo1.png" alt="logo" width="120px" height="120px"></a></abbr>
+            <h1 class="title"><span>Auto</span><span> Agency</span></h1>
+
+
+            <span class="barre">
+                <label for="rech"><img id="recherche" src="images/recherche.png" alt="" width="25px"
+                        height="25px"></label>
+                <input type="text" placeholder="Rechercher" class="set" id="rech">
+                <input type="button" value="Connexion" class="set" onclick="location.href='connexion.html'">
+                <input type="button" value="S'inscrire" class="set" onclick="location.href='formulaire.html'">
+            </span>
+        </div>
+        <nav>   
+            <ul>
+                <a href="#main">
+                    <li>acceuil</li>
+                </a>
+                <abbr title="clicker ici pour changer la langue en arabe">
+                    <li onclick="location.href='main.html'">langue</li>
+                </abbr>
+                <a href="contact.html"><li>contact</li></a>
+                <a href="disponibles.html"><li>disponibles</li></a>
+                <li>promotions</li>
+                <li>nouvelles</li>
+            </ul>
+        </nav>
+
+        <div id="description">
+            <h2 id="des">Description</h2>
+            <p style="font-size:30px;"> Ce service consiste pour le client à réserver et à jouir d'un véhicule pour une période donnée allant 
+                de quelques heures à plusieurs mois.</p>
+        </div>
+    </header>
+
+
+    <div id="annonce">
+        <span><button id="x" onclick="vider();">X</button></span>
+        <a href="ddd" target="_blank"><span id="ann"> deposer une annonce ici</span></a>
+
+    </div>
+
+    <main id="main">
+
+
+        <table>
+            <caption class="caption"><span>DERNIERS</span><span> MODÈLES</span></caption>
+
+            <tr>
+                <td>
+                    <section>
+                        <article>
+                            <h3>BMW SÉRIE 4 GRAN COUPÉ</h3>
+                            <figure>
+                                <img id="a" src="images/galerie/BMW SÉRIE 4 GRAN COUPÉ.jpg" alt="">
+                                <figcaption>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quaerat
+                                    quas perferendis odit excepturi reiciendis! Nemo, ab? Nemo quae, nesciunt aut, a
+                                    corrupti debitis recusandae temporibus numquam, ratione quis consequatur!
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </section>
+
+                </td>
+
+                <td>
+                    <section>
+                        <article>
+                            <h3>HAVAL JOLION</h3>
+                            <figure>
+                                <img id="a" src="images/galerie/HAVAL JOLION.jpg" alt="">
+                                <figcaption>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quaerat
+                                    quas perferendis odit excepturi reiciendis! Nemo, ab? Nemo quae, nesciunt aut, a
+                                    corrupti debitis recusandae temporibus numquam, ratione quis consequatur!
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </section>
+
+                </td>
+            
+
+                <td>
+                    <section>
+                        <article>
+                            <h3>HYUNDAI I20</h3>
+                            <figure>
+                                <img id="a" src="images/galerie/HYUNDAI I20.jpg" alt="">
+                                <figcaption>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quaerat
+                                    quas perferendis odit excepturi reiciendis! Nemo, ab? Nemo quae, nesciunt aut, a
+                                    corrupti debitis recusandae temporibus numquam, ratione quis consequatur!
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </section>
+
+                </td>
+            </tr>
+
+
+
+            <tr>
+                <td>
+                    <section>
+                        <article>
+                            <h3>KIA NIRO HYBRIDE</h3>
+                            <figure>
+                                <img id="a" src="images/galerie/KIA NIRO HYBRIDE.jpg" alt="">
+                                <figcaption>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quaerat
+                                    quas perferendis odit excepturi reiciendis! Nemo, ab? Nemo quae, nesciunt aut, a
+                                    corrupti debitis recusandae temporibus numquam, ratione quis consequatur!
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </section>
+
+                </td>
+
+                <td>
+                    <section>
+                        <article>
+                            <h3>MERCEDES-BENZ CLASSE C</h3>
+                            <figure>
+                                <img id="a" src="images/galerie/MERCEDES-BENZ CLASSE C.jpg" alt="">
+                                <figcaption>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quaerat
+                                    quas perferendis odit excepturi reiciendis! Nemo, ab? Nemo quae, nesciunt aut, a
+                                    corrupti debitis recusandae temporibus numquam, ratione quis consequatur!
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </section>
+
+                </td>
+            
+
+                <td>
+                    <section>
+                        <article>
+                            <h3>PEUGEOT LANDTREK DOUBLE CABINE</h3>
+                            <figure>
+                                <img id="a" src="images/galerie/PEUGEOT LANDTREK DOUBLE CABINE.jpg" alt="">
+                                <figcaption>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quaerat
+                                    quas perferendis odit excepturi reiciendis! Nemo, ab? Nemo quae, nesciunt aut, a
+                                    corrupti debitis recusandae temporibus numquam, ratione quis consequatur!
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </section>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <section>
+                        <article>
+                            <h3>PORSCHE CAYENNE COUPÉ</h3>
+                            <figure>
+                                <img id="a" src="images/galerie/PORSCHE CAYENNE COUPÉ.jpg" alt="">
+                                <figcaption>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quaerat
+                                    quas perferendis odit excepturi reiciendis! Nemo, ab? Nemo quae, nesciunt aut, a
+                                    corrupti debitis recusandae temporibus numquam, ratione quis consequatur!
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </section>
+
+                </td>
+
+                <td>
+                    <section>
+                        <article>
+                            <h3>SKODA OCTAVIA RS</h3>
+                            <figure>
+                                <img id="a" src="images/galerie/SKODA OCTAVIA RS.jpg" alt="">
+                                <figcaption>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quaerat
+                                    quas perferendis odit excepturi reiciendis! Nemo, ab? Nemo quae, nesciunt aut, a
+                                    corrupti debitis recusandae temporibus numquam, ratione quis consequatur!
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </section>
+
+                </td>
+            
+
+                <td>
+                    <section>
+                        <article>
+                            <h3>TOYOTA YARIS</h3>
+                            <figure>
+                                <img id="a" src="images/galerie/TOYOTA YARIS.jpg" alt="">
+                                <figcaption>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quaerat
+                                    quas perferendis odit excepturi reiciendis! Nemo, ab? Nemo quae, nesciunt aut, a
+                                    corrupti debitis recusandae temporibus numquam, ratione quis consequatur!
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </section>
+
+                </td>
+            </tr>
+
+
+
+
+
+
+        </table>
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <p class="footer">Conçu et développé par <a class="mybtn"
+                href="https://www.facebook.com/profile.php?id=100009768703660" target="_blank">Ben Mrad Rami</a> & <a
+                class="mybtn" href="https://www.facebook.com/aziz.hannechi.5" target="_blank">Hannechi Mohammed Aziz
+            </a> © 2022</p>
+    </footer>
+
+
+
+</body>
+
+</html>

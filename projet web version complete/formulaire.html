@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S'inscrire</title>
+    <link rel="shortcut icon" href="images/logo1.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script  defer src="app.js"></script>
+</head>
+
+<body>
+    <div id="formhead">
+        <nav>
+            <ul>
+                <a href="main.html">
+                    <li style="width: 160px;">page d'acceuil</li>
+                </a>
+                
+            </ul>
+        </nav>
+        <div
+            style="text-align: center;color: yellow;font-size: 30px;font-style: italic;text-decoration: underline;padding-bottom: 20px;">
+            S'inscrire</div>
+    </div>
+    <form id="form1" action=""  onsubmit="verifMail();verifNum();verifMot();">
+        <div id="mainform">
+            <label for="nom">Nom : </label>
+            <input type="text" name="nom" id="nom">
+
+            <span style="position: relative; left: 185px;">
+                <label for="prenom">Prenom : </label>
+                <input type="text" name="prenom" id="prenom"><br>
+            </span>
+
+
+            <span style="position: relative; left: 7px;">
+                <label for="etat">Etat : </label>
+                <input type="text" name="etat" id="etat" placeholder="Tunisie">
+            </span>
+
+            <span style="position: relative; left: 215px;">
+                <span id="sexe">Sexe : </span>
+                <label for="h">Homme : </label>
+                <span style="position: relative;top: 10px;"><input type="radio" name="genre" id="h"
+                        style="width: 100px;"></span>
+                <label for="f">Femme : </label>
+                <span style="position: relative;top: 10px;"><input type="radio" name="genre" id="f"
+                        style="width: 100px;"></span><br>
+            </span>
+
+            <span style="position: relative; right: 105px;">
+                <label for="user">Nom d'utilisation : </label>
+                <input type="text" name="user" id="user">
+            </span>
+
+
+            <span style="position: relative; left: 97px;">
+                <label for="email">Email : </label>
+                <input type="text" name="email" id="email" ><br>
+            </span>
+
+            <span style="position: relative; right: 67px;">
+                <label for="mot">Mot de passe : </label>
+                <input type="text" name="mot" id="mot">
+            </span>
+
+            <span style="position: relative; right: 20px;">
+                <label for="cmot">Confirmer Mot de passe : </label>
+                <input type="password" name="cmot" id="cmot"><br>
+            </span>
+
+
+            <span style="position: relative; right: 138px;">
+                <label for="num">Numero de telephone : </label>
+                <input type="number" name="num" id="num" placeholder="+216 xx xxx xxx">
+            </span>
+
+            <div id="accept">
+                <select name="" id="sform" size="5px" style="width: 400px;">
+                    <option value=""> Lorem
+                        ipsum dolor sit amet consectetur ad
+                        ipisicing elit</option>
+                    <option value=""> adipisci porro suscipit enim, ea nisi aperiam voluptas?</option>
+                    <option value="">dipisicing elit. Consequuntur molestias
+                        impedit dolorum modi quam minus deleniti provident iure quibusdam, eligendi quisquam a. Libero
+                        error nulla inciduntia?</option>
+                    <option value="">
+                        tenetur consectetur animi mollitia nobis! Harum aut consequatur quod? Praesentium architecto
+                        animi, inventore quasi autem possimus excepturi impedit?</option>
+                    <option value="">pora cumque possimus
+                        provident fuga adipisci illo iste atque. Dolore, vitae, tempora molestiae nihil facere in soluta
+                        est deleniti veniam ab totam!</option>
+                    <option value="">
+                        est deleniti veniam ab totam!</option>
+                    <option value="">
+                        est deleniti veniam ab totam!</option>
+                    <option value="">Tempora cumque possimus
+                        provident fuga adipisci illo iste atque. Dolore, vitae, tempora molestiae nihil facere in soluta
+                        est deleniti veniam ab totam!</option>
+                    <option value=""> vitae, tempora molestiae nihil facere in soluta
+                        est deleniti veniam ab totam!</option>
+                    <option value="">
+                        provident fuga adipisci illo iste atque. Dolore, vitae, tempora molestiae nihil facere in soluta
+                        est deleniti veniam ab totam!</option>
+                    <option value=""> molestiae nihil facere in soluta
+                        est deleniti veniam ab totam!</option>
+                </select>
+            </div><br><br>
+
+        </div>
+
+        <span style="position: relative;bottom: 80px;left: 550px;">
+            <input type="checkbox" id="check" required>
+            <label for="check" style="position: relative;right: 60px; bottom: 5px;">accept</label>
+        </span>
+
+        <span style="position: relative;top: 27px;">
+            <span style="margin-right: 50px;margin-left: 250px;margin-top: 50px;"><abbr title="envoyer"><button
+                        type="submit"><img src="images/images.jpg" alt="submit" width="100px"
+                            height="50px"></button></abbr></span>
+            <abbr title="retablir"><button type="reset"><img src="/images/reset.png" alt="reset" width="50px"
+                        height="50px"></button></abbr>
+        </span>
+
+
+
+    </form>
+</body>
+
+</html>

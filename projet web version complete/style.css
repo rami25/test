@@ -1,0 +1,538 @@
+body{
+    background-image: url(images/gaspillage-public-les-voitures-de-fonction-dans-l-administration-sont-encore-legion-1084664.jpg) ;
+    background-attachment: fixed;
+    background-size:cover;
+
+   
+}
+
+header{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    border-top:2px solid yellow;
+    border-right:2px solid yellow;
+    border-left:2px solid yellow;
+    border-bottom:25px solid yellow;
+    border-bottom-right-radius: 50px ;
+    border-bottom-left-radius: 50px ;
+    background-color:rgb(70, 78, 53);
+    opacity: 0.7;
+    margin-top: 0px;
+    height: 500px;
+}
+
+input:hover{
+    cursor: pointer;
+}
+#logo1{
+    margin-top: 10px;
+    border-radius: 50%;
+    margin-left:30px;   
+}
+
+#logo1:hover{
+    width:150px;
+    height:150px;
+    border:25px dashed white;
+}
+
+
+
+.title {
+    display: inline;
+    position: absolute;
+    top:0px;
+    left:20%;
+    font-size: 72px;
+    background: -webkit-linear-gradient(red, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
+
+}
+
+.title :hover {
+    font-size: 80px;
+    background: -webkit-linear-gradient(red, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
+    
+    cursor: pointer;
+}
+
+.barre{
+    margin-right: 0px;
+    position: absolute;
+    top:5px;
+    right:10px;
+    
+}
+.set{
+    border:3px solid black;
+    width:100px;
+    height: 30px;
+    color:black;
+    border-radius: 10px;
+    text-decoration: underline ;
+    font-weight:bold;
+}
+
+
+.set:hover{
+    color: yellow;
+    background-color: rgb(70, 78, 53);;
+}
+
+#rech{
+    height: 22px;
+    width: 200px;
+}
+
+#recherche{
+    position:relative;
+    top: 10px;
+    font-weight:bold;
+    font-size: 20px;
+    
+}
+#recherche:hover{
+    cursor: pointer;
+}
+
+#tete{
+    border-bottom:2px solid white;
+    background-image: linear-gradient(white,yellow,rgb(70, 78, 53));
+    height: 150px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+
+li{
+    
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px dashed yellow;
+    width: 100px;
+    height: 17px;
+    color:white;
+    font-size: 120%;
+    text-align: center;
+    padding:7px;
+    border-radius: 10px;
+    
+}
+
+li:hover{
+    color:black;
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: solid black;
+    background-color: yellow;
+    border-width: 10px;
+    border-radius: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+#description{
+    padding-top: 20px;
+    text-align: center;
+    margin: auto;
+    width: 800px;
+    color:white;
+    font-size: 20px;
+}
+
+#des{
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+#description:hover{
+    color: yellow;
+}
+#annonce{
+    position: relative;
+    top: 650px;
+    border: 10px solid yellow;
+    background:linear-gradient(to left,white,yellow) ;
+    opacity: 0.5;
+    margin: auto;
+    width: 70%;
+    height:200px;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
+    color: gray;
+    
+}
+#x{
+    position: absolute;
+    top: 0px;
+    right:0px;
+    width: 70px;
+    height: 70px;
+    background-color:rgb(70, 78, 53);
+    opacity: 0.7;
+    font-size:50px ;
+    
+
+}
+
+
+#x:hover{
+    background-color: white;
+    border:2px solid black;
+    color: red;
+    cursor: pointer;
+}
+
+#ann:hover{
+    cursor: pointer;  
+    text-decoration: underline;  
+}
+a{
+    text-decoration: none;
+}
+main{
+    text-align: center;
+    margin-top: 700px;
+    margin-bottom : 700px;
+    background-color:rgb(70, 78, 53);
+    opacity: 0.7;
+    height: 100%;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.caption{
+    font-size:60px;
+    margin-bottom:50px;
+    margin-top:50px;
+    font-weight: bold;
+    font-style: italic;
+    background: -webkit-linear-gradient(yellow, white);
+  
+}
+
+.caption:hover{
+    font-size:85px;
+    color: yellow;
+    background: -webkit-linear-gradient(white, black);
+}
+
+td{
+    border:5px dotted yellow;
+}
+
+td:hover{
+    font-size: 20px;
+    background:linear-gradient(yellow,white);
+
+}
+section{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    height:100%;
+}
+
+article{
+    
+    width: 100%;
+    height:100%;
+}
+
+
+
+#a{ 
+    width: 100%;
+    height:100%;
+    
+}
+
+
+
+
+footer{
+    position:relative;
+    bottom:0%;
+    right:0px;
+    left:0px;
+    border:2px solid yellow;
+    background-color:rgb(70, 78, 53);
+    opacity: 0.7;
+    height: 150px;
+    border-top-right-radius: 50px ;
+    border-top-left-radius: 50px ;
+}
+
+
+
+#l{
+    margin-left:500px;
+}
+
+
+
+button{
+    background-color: transparent;
+}
+
+
+
+.footer{
+    text-align: center;
+    padding-top:30px;
+    color:white;
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+.mybtn {
+    margin: 0.5rem;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid yellow;
+    padding: 0.375rem 0.75rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    border-radius: 0.5rem;
+    transition: all 0.5s;
+}
+
+.mybtn:hover {
+    background-color: yellow;
+    color: #fff;
+    font-size: 2rem;
+}
+
+
+/*////////////////////////////////////////////////formulaire*/
+
+#formhead ,#contacthead,#conhead,#dishead,#payehead{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: rgb(70, 78, 53);
+    opacity: 0.6;
+    border-right: 5px solid yellow;
+    border-left: 5px solid yellow;
+    border-bottom: 5px solid yellow;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+
+#form1,#contact,#form3,#paye{
+    margin-top: 180px;
+    background:linear-gradient(to right,rgb(236, 236, 149),rgb(70, 78, 53),rgb(70, 78, 53),rgb(70, 78, 53),rgb(70, 78, 53),rgb(70, 78, 53),rgb(70, 78, 53),yellow);
+    opacity: 0.6;
+    border-radius: 50px;
+    border: 10px solid yellow;
+    height: 100%;
+
+}
+
+#mainform{
+    padding-top: 30px;
+    padding-left: 20%;
+}
+
+
+label,#sexe{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: initial;
+    color:yellow;
+}
+
+#form1 input{
+    margin-bottom: 30px;
+    width: 150px;
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 10px;
+    transition:width 0.1s;
+}
+
+#sform{
+    position: relative;
+    left: 350px;
+    bottom: 30px;
+    background-color:black;
+    opacity: 0.5;
+    color: white;
+    border: 10px solid yellow;
+    border-radius: 20px;
+    width: 12px;
+    
+}
+
+
+#mainform input:hover{
+    width: 200px;
+    border-color:  yellow;
+}
+
+#check:hover{
+    transition: none;
+}
+button:hover{
+   border: 10px solid yellow;
+   border-radius: 20px;
+    cursor: pointer;
+}
+
+
+
+/*////////////////////////////contact*/
+
+#contact{
+    color: white ;
+    text-align: center;
+}
+
+#contact div{
+    margin-bottom: 10px;
+}
+
+#contact input{
+    width: 150px;
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 10px;
+    
+}
+
+#contact #env{
+    margin-top: 20px;
+    width: 80px;
+}
+#contact #env:hover{
+    background-color: yellow;
+}
+
+
+#foot3{
+    height: 300px;
+}
+#contf{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+#contf img:hover{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+/*/////////////////////////connexion*/
+
+#form3 input{
+    margin-bottom: 20px;
+    width: 150px;
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+#form3 div{
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    margin-right: 80px;
+}
+
+#form3 #conn{
+    margin-left: 130px;
+}
+
+#form3 #conn:hover{
+    background-color: yellow;
+}
+
+
+/*/////////////////////////////disponibles*/
+
+
+#discontent{
+    margin-top: 400px;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#discontent p{
+    margin-left: 20px;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+#payef{
+    color: white;
+    margin-left: 300px;
+}
+
+#payef input{
+    margin-top: 10px;
+    width: 150px;
+    height: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+#payef label{
+    color: white;
+}
+
+#payef select{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 150px;
+    height: 30px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+#payef button{
+    border-radius: 10px;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    border:5px solid balck;
+    margin-top: 20px;
+    margin-left: 250px;
+    height: 50px;
+    width: 90px;
+}
+
+#payef button:hover{
+    
+    border: 5px solid yellow;
+}
